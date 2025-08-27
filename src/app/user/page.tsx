@@ -31,7 +31,7 @@ const User = () => {
 
   return (
     <div className="continer mt-[100px] mb-[50px]">
-        <span className="flex justify-center text-2xl font-bold mb-6">Users</span>
+        <span className="flex  text-2xl font-bold mb-6">Users</span>
       <div className="grid md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
         {data?.users?.map((item: IUsers) => (
           <div key={item.id} className=" border-1 border-gray-400 rounded-2xl flex flex-col font-bold">
