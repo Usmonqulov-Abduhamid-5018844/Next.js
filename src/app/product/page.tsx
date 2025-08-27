@@ -29,6 +29,7 @@ const Product = () => {
 
   return (
     <div className="continer mt-[100px] mb-[50px]">
+       <span className="flex justify-center text-2xl font-bold mb-6">Reoduct</span>
       <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-6">
         {data?.products?.map((item: IProduct) => (
           <div key={item.id} className=" border-1 border-gray-300 rounded-2xl flex flex-col font-bold">
